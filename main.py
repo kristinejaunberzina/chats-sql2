@@ -18,7 +18,7 @@ class test(db.Model):
 
 @app.route('/')
 def index_page():
-  return "Sveiciens no StartIT! Versija 2"
+  return "Sveiciens no StartIT! Versija 2.1"
 
 @app.route('/postgreSQL')
 def postgresSQL():
